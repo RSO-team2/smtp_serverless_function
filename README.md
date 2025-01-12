@@ -18,3 +18,6 @@ Deploying the fucntion: `doctl serverless deploy smtp-serverless-function`
 
 This function serves as an email notification system using SMTP protocol. The chosen SMTP provider is mailsender. The function recieves two URL arguments: the user email and order status and sends an email with said status to said user email. In case of error it returns an error JSON object. More details about calling the function is available in Postman API documentation (https://documenter.getpostman.com/view/26454602/2sAYQWKZR5). 
 
+---
+
+To use the script locally, ensure that you have the `SMTP_USERNAME` and `SMTP_PASSWORD` environment variables set up.
